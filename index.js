@@ -37,8 +37,8 @@ function handleIdPrefixes(idPrefixes, headingClassDescriptor, headingTextContent
 }
 
 function mainline() {
-  handleIdPrefixes(maintenances, 'text-bg-primary', 'Some Service Maintenance', 'text-primary', ' Maintenance');
-  handleIdPrefixes(degradeds, 'text-bg-dark', 'Some Service Degradation', 'text-dark', ' Degraded Performance');
+  handleIdPrefixes(maintenances, 'text-bg-primary', 'Service Maintenance', 'text-primary', ' Maintenance');
+  handleIdPrefixes(degradeds, 'text-bg-dark', 'Degraded Service Performance', 'text-dark', ' Degraded Performance');
   handleIdPrefixes(partials, 'text-bg-warning', 'Partial Service Outage', 'text-warning', ' Partial Outage');
   handleIdPrefixes(majors, 'text-bg-danger', 'Major Service Outage', 'text-danger', ' Major Outage');
 }
